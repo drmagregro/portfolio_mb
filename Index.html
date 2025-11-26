@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio – Matteo Bruno</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<nav class="navbar">
+  <div class="nav-left">
+    <span class="logo">MB.</span>
+  </div>
+
+  <div class="nav-links" id="nav-links">
+    <a href="#hero">Accueil</a>
+    <a href="#about">À propos</a>
+    <a href="#skills">Compétences</a>
+    <a href="#projects">Projets</a>
+    <a href="#cv">CV</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <div class="nav-right">
+    <button id="theme-toggle">🌙</button>
+    <div class="burger" id="burger">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-content">
+    <img src="assets/img/photo-pro.jpg" alt="Photo professionnelle" class="hero-photo">
+
+    <h1>Matteo Bruno</h1>
+    <p class="hero-subtitle">
+      Data Analyst • Data Scientist • Data Engineer
+    </p>
+
+    <a href="#projects" class="btn">Voir mes projets</a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2>À propos</h2>
+  <p class="text-center max-600">
+    Passionné par la donnée, j’analyse, transforme et valorise les informations pour aider à la prise
+    de décision. J’aime résoudre des problèmes complexes, explorer des datasets et créer des solutions
+    utiles et élégantes.
+  </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <h2>Compétences</h2>
+
+  <div class="skills-grid">
+    <div class="skill-box">
+      <h3>Langages</h3>
+      <p>Python, SQL</p>
+    </div>
+
+    <div class="skill-box">
+      <h3>Business Intelligence</h3>
+      <p>Power BI, Tableau</p>
+    </div>
+
+    <div class="skill-box">
+      <h3>Machine Learning</h3>
+      <p>Scikit-learn, modèles ML</p>
+    </div>
+
+    <div class="skill-box">
+      <h3>Data Engineering</h3>
+      <p>Airflow, Docker, Cloud</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Projets</h2>
+
+  <div class="projects-grid">
+
+    <div class="project">
+      <img src="assets/img/analyse.png" alt="Projet Dashboard">
+      <h3>Dashboard Excel</h3>
+      <p>Analyse visuelle des ventes et tendances.</p>
+      <div class="btn-center">
+        <a href="docs/graphiques3.xlsx" class="btn-ghost">Voir</a>
+      </div>
+    </div>
+
+    <div class="project">
+      <img src="assets/img/Steganographie.jpeg" alt="Projet Steganographie">
+      <h3>Stéganographie</h3>
+      <p>Modèle de stéganographie en Python.</p>
+      <div class="btn-center">
+        <a href="https://github.com/drmagregro/watermarking" class="btn-ghost">GitHub</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CV -->
+<section id="cv">
+  <h2>Mon CV</h2>
+  <a href="docs/CV Matteo Bruno Nov 2025.pdf" class="btn">Télécharger mon CV</a>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact</h2>
+
+  <form>
+    <input type="text" placeholder="Nom" required>
+    <input type="email" placeholder="Email" required>
+    <textarea rows="5" placeholder="Message" required></textarea>
+
+    <button class="btn">Envoyer</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 — BRUNO Matteo</p>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
